@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #F5F5F5;
+    color: #1A1A1A;
+}
+
+/* HERO */
+.hero {
+    background: #014E0E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero p {
+    color: #A8D5BA;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #00FF1A;
+    color: #014E0E;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #CFA46A;
+    color: #1A1A1A;
+}
+
+/* FEATURES */
+.features {
+    text-align: center;
+    padding: 60px 20px;
+    background: #FFFFFF;
+}
+
+.features h2 {
+    color: #014E0E;
+}
+
+.feature {
+    background: #A8D5BA;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+    background: #014E0E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.testimonial p {
+    color: #A8D5BA;
+    font-style: italic;
+}
+
+/* CTA */
+.cta {
+    text-align: center;
+    padding: 60px 20px;
+    background: #F5F5F5;
+}
+
+.cta h2 {
+    color: #014E0E;
+}
+
+.cta button {
+    padding: 12px 25px;
+    background: #00FF1A;
+    color: #014E0E;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cta button:hover {
+    background: #CFA46A;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+    .features {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .feature {
+        width: 250px;
+    }
+}
